@@ -11,3 +11,9 @@ if renda >= (1000.00):
     print("voce deve abrir uma renda fixa.")
 if aceitacao_risco == "al":
     renda =int(input("quanto vc quer depositar? "))
+if renda <(1000.00):
+    print("voce deve investir em bitcoin. ")
+if renda >= (1000.00):
+    print("voce deve abrir uma ação. ")
+else:
+    print("dado informado invalido!")
