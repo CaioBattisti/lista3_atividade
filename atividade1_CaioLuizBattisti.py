@@ -2,8 +2,12 @@
 #O grau de aceitação de risco e o valor a ser investido. O grau de aceitação de risco deve ser lido no teclado na forma BX ou AL 
 #se for fornecido algo diferente disso o programa deve mostrar uma mensagem indicando que foi fornecido dado invalido.
 #Para o valor dever ser numero real.
-aceitacao_risco =real input("qual sua aceitação de risco, BX ou AL? ")
+aceitacao_risco = input("qual sua aceitação de risco, BX ou AL? ")
 if aceitacao_risco == "bx":
-    investir = input("quando deseja investir? ")
-if investir < 100:
-    print("voce deve abrir uma poupança.")
+    renda =int(input("quando vc quer depositar? "))
+    if renda < (1000.00):
+        print("voce deve abrir uma poupança.")
+if renda >= (1000.00):
+    print("voce deve abrir uma renda fixa.")
+if aceitacao_risco == "al":
+    renda =int(input("quanto vc quer depositar? "))
