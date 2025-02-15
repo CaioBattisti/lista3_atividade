@@ -8,5 +8,9 @@
 nome = input("digite o nome:")
 idade =int(input("digite a idade:"))
 genero = input("digite seu genero:")
-if genero == (homen) and idade >= 18 and idade < 39:
-     
+if genero == ("M") or ("m") and idade >= 18 and idade < 39:
+    print("voce pode servir.")
+elif genero == ("F") or ("f") and idade >= 21 and idade < 34:
+    print("voce pode servir.")
+else:
+    print("desculpe, voce nao pode servir.")
