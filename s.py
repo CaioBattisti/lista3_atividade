@@ -1,6 +1,0 @@
-nome = input("digite o nome do cliente: ")
-telefone =int(input("digite o telefone do cliente: "))
-bairro = input("digite o bairro do cliente: ")
-print("o nome do cliente e ",nome)
-print("o telefone do cliente e ",telefone)
-print("o baiiro do cliente e ",bairro)
