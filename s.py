@@ -1,0 +1,6 @@
+nome = input("digite o nome do cliente: ")
+telefone =int(input("digite o telefone do cliente: "))
+bairro = input("digite o bairro do cliente: ")
+print(nome)
+print(telefone)
+print(bairro)
