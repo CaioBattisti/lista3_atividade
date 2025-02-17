@@ -2,7 +2,7 @@
 #O programa deve ler string para o nome e um numero real para o peso.
 #Conforme o peso ocorrera o enquadramento na categoria segundo essa tabela.
 nome = input(("Qual nome do lutador? "))
-peso =int(input("qual o seu peso? "))
+peso =float(input("qual o seu peso? "))
 if peso < (52):
     print("invalido, tente de novo!")
 

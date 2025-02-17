@@ -4,13 +4,13 @@
 #Para o valor dever ser numero real.
 aceitacao_risco = input("qual sua aceitação de risco, BX ou AL? ")
 if aceitacao_risco == "bx":
-    renda =int(input("quando vc quer depositar? "))
+    renda =float(input("quando vc quer depositar? "))
 if renda < (1000.00):
     print("voce deve abrir uma poupança.")
 if renda >= (1000.00):
     print("voce deve abrir uma renda fixa.")
 elif aceitacao_risco == "al":
-    renda2 =int(input("quanto vc quer depositar? "))
+    renda2 =float(input("quanto vc quer depositar? "))
     if renda2 <(1000.00):
         print("voce deve investir em bitcoin. ")
     if renda2 >= (1000.00):
