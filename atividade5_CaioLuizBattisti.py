@@ -1,4 +1,3 @@
-#
 preco_custo =float(input("Digite o preço de custo do produto: "))
 if preco_custo <=100:
     margem = 0.45
