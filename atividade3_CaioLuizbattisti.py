@@ -5,5 +5,7 @@ valor_salario =float(input("digite seu salario:"))
 valor_parcela =float(input("digite sua parcela:"))
 if valor_parcela < ((valor_salario * 0.08)):
     print("seu emprestimo sera consebido.")
+    print("CAIO LUIZ BATTISTI")
 else:
     print("seu emprestimo nao sera consebido.")
+    print("CAIO LUIZ BATTISTI")

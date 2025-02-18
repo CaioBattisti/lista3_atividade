@@ -18,3 +18,4 @@ if aceitacao_risco == "bx" or aceitacao_risco == "al":
             print("voce deve abrir uma ação.")
 if aceitacao_risco != "bx" and aceitacao_risco != "al":
     print("Dado invalido, tente novamente!")
+    print("CAIO LUIZ BATTISTI")

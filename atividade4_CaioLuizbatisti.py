@@ -10,7 +10,10 @@ idade =float(input("digite a idade:"))
 genero = input("digite seu genero:")
 if genero == ("M") or ("m") and idade >= 18 and idade < 39:
     print("voce pode servir.")
+    print("CAIO LUIZ BATTISTI")
 elif genero == ("F") or ("f") and idade >= 21 and idade < 34:
     print("voce pode servir.")
+    print("CAIO LUIZ BATTISTI")
 else:
     print("desculpe, voce nao pode servir.")
+    print("CAIO LUIZ BATTISTI")
